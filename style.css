@@ -1,0 +1,188 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 70px;
+    margin-bottom: 15px;
+    padding-bottom: 0;
+    font-style: italic;
+    text-shadow: 3px 3px 3px grey;
+    text-align: center;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back{
+    height:500px ;
+    width: 500px;
+    background-color: rgb(117, 106, 182);
+    border-radius: 50%;
+    z-index: -10;
+    position: absolute;
+    left: 518px;
+}
+
+.watch{
+    height: 400px;
+    width: 400px;
+    border: 30px solid rgb(227, 150, 237);
+    background-color: rgb(243, 204, 243);
+    border-radius: 50%;
+    font-size: 40px;
+    position: relative;
+    font-weight: 900;
+}
+
+.center{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    box-sizing: border-box;
+    border: 5px solid rgb(0, 59, 122);
+    background-color: rgb(75, 189, 238);
+    top: 185px;
+    left: 188px;
+}
+
+.num3{
+    position: absolute;
+    top : 177px;
+    left: 370px;
+}
+
+.num6{
+    position: absolute;
+    top: 355px;
+    left: 190px;
+}
+
+.num9{
+    position: absolute;
+    top: 177px;
+    left: 10px;
+}
+
+.num12{
+    position: absolute;
+    top: 5px;
+    left: 180px;
+}
+
+.num1{
+    position: absolute;
+    top: 35px;
+    left: 280px;
+}
+
+.num2{
+    position: absolute;
+    top: 100px;
+    left: 340px;
+}
+
+.num4{
+    position: absolute;
+    top: 255px;
+    left: 350px;
+}
+
+.num5{
+    position: absolute;
+    top: 325px;
+    left: 290px;
+}
+
+.num7{
+    position: absolute;
+    top: 325px;
+    left: 97px;
+}
+
+.num8{
+    position: absolute;
+    top: 255px;
+    left: 35px;
+}
+
+.num10{
+    position: absolute;
+    top: 100px;
+    left: 30px;
+}
+
+.num11{
+    position: absolute;
+    top: 35px;
+    left: 85px;
+}
+
+#hour-hand{
+    position: absolute;
+    left: 198px;
+    top: 90px;
+    transform-origin: bottom;
+}
+
+#minute-hand{
+    position: absolute;
+    left: 198px;
+    top: 80px;
+    transform-origin: bottom;
+}
+
+#second-hand{
+    position: absolute;
+    left: 201px;
+    top: 70px;
+    transform-origin: bottom;
+}
+
+.arrowhour{
+    font-size: 50px;
+    position: absolute;
+    top: -21px;
+    left: -21px;
+}
+
+.hourStick{
+    height: 110px;
+    width: 8px;
+    background-color: black;
+}
+
+.minuteStick{
+    height: 125px;
+    width: 8px;
+    background-color: black;
+}
+
+.arrowMinute{
+    font-size: 50px;
+    position: absolute;
+    color: black ;
+    top: -19px;
+    left: -21px;
+}
+
+.secondStick{
+    height: 135px;
+    width: 2.5px;
+    background-color: black;
+}
+
+.arrowSecond{
+    font-size: 30px;
+    position: absolute;
+    color: black ;
+    top: -13px;
+    left: -14px;
+}
+
